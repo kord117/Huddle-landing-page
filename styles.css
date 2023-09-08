@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+body {
+  font-family: "Open Sans";
+  background-image: url(./images/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+  background-repeat: no-repeat;
+  text-wrap: balance;
+  color: white;
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mockup {
+  height: 50vh;
+  width: 95%;
+}
+footer {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.social .fa-brands {
+  padding: 0.4em;
+  margin: 0.2em;
+  border: 0.15em solid white;
+  border-radius: 100%;
+}
+/* .attribution {
+  font-size: 11px;
+  text-align: right;
+
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
