@@ -1,22 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
 
 body {
-  font-family: "Open Sans";
-  background-image: url(./images/bg-desktop.svg);
-  background-color: hsl(257, 40%, 49%);
+  font-family: "Poppins";
+  background: url(./images/bg-desktop.svg) hsl(257, 40%, 49%);
+  background-size: cover;
   background-repeat: no-repeat;
-  text-wrap: balance;
   color: white;
 }
 main {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding: 4rem;
+}
+.text {
+  text-wrap: wrap;
+  width: 50%;
+}
+button {
+  padding: 1rem 4rem;
+  border-radius: 20rem;
+  border: 0;
+  box-shadow: 0.2rem 0.2rem 1rem black;
+}
+header {
+  margin: 2.5rem;
+}
+button:hover {
+  background-color: hsl(300, 69%, 71%);
 }
 
 .mockup {
   height: 50vh;
-  width: 95%;
 }
 footer {
   display: flex;
@@ -24,10 +39,20 @@ footer {
   flex-direction: column;
 }
 .social .fa-brands {
-  padding: 0.4em;
-  margin: 0.2em;
-  border: 0.15em solid white;
+  padding: 0.4rem;
+  margin: 0.2rem;
+  border: 0.15rem solid white;
   border-radius: 100%;
+}
+.social .fa-brands:hover {
+  border-color: hsl(300, 69%, 71%);
+  color: hsl(300, 69%, 71%);
+}
+h1 {
+  font-weight: 600;
+}
+p {
+  font-weight: 400;
 }
 /* .attribution {
   font-size: 11px;
